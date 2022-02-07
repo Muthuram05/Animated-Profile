@@ -1,0 +1,293 @@
+<html>
+    <head>
+        <title>RAM</title>
+        <link rel="stylesheet" href="all.min.css">
+        <link rel="icon" type="" href="">
+        <script src="https://kit.fontawesome.com/9cfb58acdb.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet" href="loder.css">
+        <link rel="stylesheet" href="skill.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+
+          
+          .wrapper{
+            display: flex;
+            padding-top: 30%;
+          }
+          .wrapper .static-txt{
+            color: #f1f1f1;
+            font-size: 60px;
+            font-weight: 400;
+           
+          }
+          .wrapper .dynamic-txts{
+            margin-left: 15px;
+            height: 90px;
+            line-height: 90px;
+            overflow: hidden;
+            
+          }
+          .dynamic-txts li{
+            list-style: none;
+            color: #f00;
+            font-size: 60px;
+            font-weight: 500;
+            position: relative;
+            top: 0;
+            animation: slide 12s steps(4) infinite;
+          }
+          @keyframes slide {
+            100%{
+              top: -360px;
+            }
+          }
+          .dynamic-txts li span{
+            position: relative;
+            margin: 5px 0;
+            line-height: 90px;
+            text-transform: uppercase;
+          }
+          .dynamic-txts li span::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: #000;
+            border-left: 35px solid #f00;
+            animation: typing 3s steps(12) infinite;
+          }
+          @keyframes typing {
+            40%, 60%{
+              left: calc(100% + 30px);
+            }
+            100%{
+              left: 0;
+            }
+          }
+          .background{
+          height: 880px;
+          font-weight: bolder;
+          background-image: url("download.png");
+          
+
+          }
+          .background h1{
+            color: #f1f1f1;
+            padding-top: 5%;
+            font-size: 70px;
+          }
+        </style>
+
+    </head>
+    <body>
+      <div id="loder">
+ 
+      </div>
+      <script>
+        var loader =document.getElementById("loder");
+        window.addEventListener("load",function(){
+          loader.style.display="none";
+        });
+      </script>
+      
+
+    <div class="background" id="particles-js">
+    
+      <div id="name"><h1>!RAM</h1></div>
+      <div class="wrapper">
+        <div class="static-txt">I'm a</div>
+        <ul class="dynamic-txts">
+          <li><span>web designer</span></li>
+          <li><span>programmer</span></li>
+          <li><span>Developer</span></li>
+          <li><span>mobile apps</span></li>
+        </ul>
+      </div>
+      
+    </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <!--project-->
+    <div class="full_pro">
+        <div class="pro">
+
+            <div class="card">
+              <div class="face face1">
+                <div class="con">
+                  <img src="">
+                  <h2>TODO APP</h2>
+                </div>
+
+              </div>
+              <div class="face face2">
+                <div class="con">
+                  <p>ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list 
+                    everything that we have to do, with the most important tasks at the top of the list, and the least
+                     important tasks at the bottom. It is helpful in planning our daily schedules.</p>
+                     <a href="https://github.com/Muthuram05/todo_app" target="_blank">view project</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="card">
+              <div class="face face1">
+                <div class="con">
+                  <img src="">
+                  <h2>virtual mouse</h2>
+                </div>
+
+              </div>
+              <div class="face face2">
+                <div class="con">
+                  <p>A real-time fingertip-gesture-based interface is still challenging for human computer interactions, due 
+                    to sensor noise, changing light levels, and the complexity of tracking a fingertip across a variety of subjects. 
+                    Using fingertip tracking as a virtual mouse is a popular method of 
+                    interacting with computers without a mouse device.</p>
+                     <a href="#" target="_blank">view project</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="card">
+              <div class="face face1">
+                <div class="con">
+                  <img src="">
+                  <h2>Face detect</h2>
+                </div>
+
+              </div>
+              <div class="face face2">
+                <div class="con">
+                  <p>
+                    Face detection is a computer technology being used in a variety of applications that 
+                    identifies human faces in digital images. Face detection also refers to the
+                     psychological process by which humans locate and attend to faces in a visual scene.
+                  </p>
+                     <a href="#" target="_blank">view project</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="card">
+              <div class="face face1">
+                <div class="con">
+                  <img src="">
+                  <h2>Hand detect</h2>
+                </div>
+
+              </div>
+              <div class="face face2">
+                <div class="con">
+                  <p>
+                    The finger tracking system is focused on user-data interaction, where the user interacts 
+                    with virtual data, by handling through the fingers the volumetric of a 3D object that we want to represent.
+                     This system was born based on the human-computer interaction problem. 
+                </p>
+                     <a href="#" target="_blank">view project</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+      </div>
+      <div class="full_skill">
+        <diV class="skill_head">
+        <h2>css skill bar</h2>
+        <div class="skills">
+            <span class="name">html</span>
+            <div class="percent">
+                <div class="progress" style="width: 80%;"></div>
+            </div>
+            <span class="value">80%</span>
+        </div>
+        <div class="skills">
+            <span class="name">python</span>
+            <div class="percent">
+                <div class="progress" style="width: 40%;"></div>
+            </div>
+            <span class="value">40%</span>
+        </div>
+
+        <div class="skills">
+            <span class="name">css</span>
+            <div class="percent">
+                <div class="progress" style="width: 40%;"></div>
+            </div>
+            <span class="value">40%</span>
+        </div>
+
+        <div class="skills">
+            <span class="name">javascript</span>
+            <div class="percent">
+                <div class="progress" style="width: 30%;"></div>
+            </div>
+            <span class="value">30%</span>
+        </div>
+
+    </diV>
+    </div>
+        <div class="one">
+            <footer>
+      
+              <div class="container">
+                <div class="sec aboutus">
+                  <h2>ABOUT US</h2>
+                  <div class="fit">
+                    <h1 style="color: #f1f1f1;"><I>RAM</I></h1>
+                   </div>
+      
+      
+                  <p>PROGRAMMER</p>
+                  <ul class="sci">
+                    <li><a href="https://www.instagram.com/ram_vishwa123"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/muthuram05"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/muthu-raman-27339a212"><i class="fab fa-linkedin"></i></a></li>      
+                  </ul>
+                </div>
+                <div class="sec quicklinks">
+                  <h2>Quick links</h2>
+                  <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">HELP </a></li>
+                    <li><a href="#">FEEDBACK</a></li>
+                  </ul>
+                </div>
+                <div class="sec contact">
+                  <h2>CONTACT INFO</h2>
+                  <ul class="info">
+                    <li>
+      
+                      <span><i class="fa fa-map-marker" aria-hidden="true"></i></span><br>
+                      <span>Tirunelveli,Junction</span><br>
+                      <span>Tamil Nadu-627001,India</span>
+                    </li>
+                    <li>
+                      <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                      <p><a href="tel:+91 4634261701">+91 7639490537</a></p>
+                    </li>
+                    <li>
+                      <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                      <p><a href="mailto:mr032495@gmail.com">mr032495@gmail.com</a></p>
+                    </li>
+      
+      
+                  </ul>
+                </div>
+      
+      
+            </div>
+            </footer>
+            <div class="copyright">
+              <p>© Copyright@ 2021 MuthuRam. All Rights Reserved.</p>
+            </div>
+      
+          </div>
+
+    </body>
+</html>
