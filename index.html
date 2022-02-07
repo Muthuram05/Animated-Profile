@@ -80,6 +80,13 @@
             padding-top: 5%;
             font-size: 70px;
           }
+          .background .img{
+            opacity: 0.2;
+          }
+          .background .img:hover{
+            opacity: 0.5;
+            transform: scale(1.1);
+          }
         </style>
 
     </head>
@@ -98,7 +105,9 @@
     <div class="background" id="particles-js">
     
       <div id="name"><h1>!RAM</h1></div>
+      <div style="float: right;" class="img"><img src="b&w.jpg"></div>
       <div class="wrapper">
+        
         <div class="static-txt">I'm a</div>
         <ul class="dynamic-txts">
           <li><span>web designer</span></li>
@@ -109,6 +118,7 @@
       </div>
       
     </div>
+    
     <script src="particles.js"></script>
     <script src="app.js"></script>
     <!--project-->

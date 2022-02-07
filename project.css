@@ -87,3 +87,12 @@
     background:#333;
     color: #fff;
 }
+@media(max-width:991px){
+    .pro{
+    width: 1000px;
+    position: relative;
+    display:inline;
+    justify-content: space-between;
+    width: 100%;
+}
+}
