@@ -83,15 +83,15 @@
         width: 0;
     }
 }
-.skill_head .skills:nth-child(2) .percent .progress{
+.skill_head .skills:nth-child(3) .percent .progress{
     background: linear-gradient(45deg, #e29759,#f00);
 }
-.skill_head .skills:nth-child(3) .percent .progress{
+.skill_head .skills:nth-child(4) .percent .progress{
     background: linear-gradient(45deg, #3bc0ff,#33ff00);
 }
-.skill_head .skills:nth-child(4) .percent .progress{
+.skill_head .skills:nth-child(5) .percent .progress{
     background: linear-gradient(45deg, #ffee54,#ff00ca);
 }
-.skill_head .skills:nth-child(5) .percent .progress{
+.skill_head .skills:nth-child(6) .percent .progress{
     background: linear-gradient(45deg, #22ffde,#2196f3);
 }
