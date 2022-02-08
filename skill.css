@@ -3,7 +3,22 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #333;
+    background:linear-gradient(
+        135deg,rgb(0,0,0),
+        rgb(128,128,128),
+        rgb(192,192,192)
+    );
+    
+animation: anim 4s infinite alternate;
+}
+@keyframes anim{
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 100%;
+        
+    }
 }
 .skill_head{
     position: relative;
