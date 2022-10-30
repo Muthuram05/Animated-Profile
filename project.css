@@ -6,11 +6,11 @@
     align-items: center;
 }
 .pro{
-    width: 1000px;
-    position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 .pro .card{
     position: relative;
@@ -86,13 +86,4 @@
 .pro .card .face.face2 .con a:hover{
     background:#333;
     color: #fff;
-}
-@media(max-width:991px){
-    .pro{
-    width: 1000px;
-    position: relative;
-    display:inline;
-    justify-content: space-between;
-    width: 100%;
-}
 }
